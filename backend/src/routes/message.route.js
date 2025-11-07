@@ -19,8 +19,6 @@
 // router.post("/send/:id", sendMessage);
 
 
-
-
 import express from "express";
 import {
   getAllContacts,
@@ -42,7 +40,4 @@ router.get("/chats", getChatPartners);
 router.get("/:id", getMessagesByUserId);
 router.post("/send/:id", sendMessage);
 
-// ✅ This is the important line
 export default router;
-
-
